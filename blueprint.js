@@ -1,42 +1,43 @@
 const blueprint = {
-  "name": "Leads",
-  "slug": "leads",
+  "name": "Vinsolutions Leads",
+  "slug": "vinsolutionsleads",
   "fields": [
     {
-      "key": "Lead Source",
+      "key": "lead_source",
       "label": "Lead Source",
       "type": "string"
     },
     {
-      "key": "Dealer",
+      "key": "dealer",
       "label": "Dealer",
       "type": "string"
     },
     {
-      "key": "Customer",
+      "key": "customer",
       "label": "Customer",
       "type": "string"
     },
     {
-      "key": "Lead Status Type",
+      "key": "lead_status_type",
       "label": "Lead Status Type",
       "type": "string"
     },
     {
-      "key": "Lead Status",
+      "key": "lead_status",
       "label": "Lead Status",
       "type": "string"
     },
     {
-      "key": "Lead Origination Date",
+      "key": "lead_orgination_date",  // Note: Ensure the typo matches your database if it's intentional
       "label": "Lead Origination Date",
       "type": "date"
     },
     {
-      "key": "Email",
+      "key": "email",
       "label": "Email",
       "type": "string"
     }
   ]
 }
+
 
