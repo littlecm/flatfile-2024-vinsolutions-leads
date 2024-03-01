@@ -3,44 +3,40 @@ const blueprint = {
   "slug": "leads",
   "fields": [
     {
+      "key": "Lead Source",
+      "label": "Lead Source",
+      "type": "string"
+    },
+    {
+      "key": "Dealer",
+      "label": "Dealer",
+      "type": "string"
+    },
+    {
       "key": "Customer",
       "label": "Customer",
       "type": "string"
     },
     {
-      "key": "Customer Email",
-      "label": "Customer Email",
+      "key": "Lead Status Type",
+      "label": "Lead Status Type",
       "type": "string"
     },
     {
-      "key": "Store",
-      "label": "Store",
+      "key": "Lead Status",
+      "label": "Lead Status",
       "type": "string"
     },
     {
-      "key": "Deal Date Created",
-      "label": "Deal Date Created",
+      "key": "Lead Origination Date",
+      "label": "Lead Origination Date",
       "type": "date"
     },
     {
-      "key": "Customer First Name",
-      "label": "Customer First Name",
-      "type": "string"
-    },
-    {
-      "key": "Customer Last Name",
-      "label": "Customer Last Name",
-      "type": "string"
-    },
-    {
-      "key": "Source Type",
-      "label": "Source Type",
-      "type": "string"
-    },
-    {
-      "key": "Source Description",
-      "label": "Source Description",
+      "key": "Email",
+      "label": "Email",
       "type": "string"
     }
   ]
 }
+
